@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     box-sizing: border-box;
   }
   body 
@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     background: antiquewhite;
-    padding: 10px 20px;
+    padding: 15px 30px;
   }
   .logo,
   .icono {
@@ -20,5 +20,12 @@
     height: 20px;
     background: cadetblue;
   }
+  .muesta {
+    background: darkkhaki;
+    display: flex;
+    padding: 30px 10px;
+    gap: 25px;
+  }
+
   
 
