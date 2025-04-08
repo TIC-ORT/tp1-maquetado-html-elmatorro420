@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
   }
-  body 
+  cuerpo
   { font-family: sans-serif;
     background-color: chocolate ;
 }
-.nav-bar {
+.barra {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,9 +15,10 @@
     padding: 10px 20px;
   }
   .logo,
-  .menu-icon {
+  .icono {
     width: 20px;
     height: 20px;
     background: cadetblue;
   }
+
 
