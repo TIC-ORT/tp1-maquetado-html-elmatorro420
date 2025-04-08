@@ -14,3 +14,10 @@
     background: antiquewhite;
     padding: 10px 20px;
   }
+  .logo,
+  .menu-icon {
+    width: 20px;
+    height: 20px;
+    background: cadetblue;
+  }
+
