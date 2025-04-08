@@ -26,6 +26,11 @@
     padding: 30px 10px;
     gap: 25px;
   }
+  .imagenmuestra {
+    width: 145px;
+    height: 145px;
+    background: darkorange;
+  }
 
   
 
