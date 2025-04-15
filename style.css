@@ -69,6 +69,15 @@
     align-items: center;
     justify-content: center;
   }
+  .carta .inner {
+    width: 65%;
+    height: 65%;
+  }
+  .carta.azul {
+    background: #1bbac5;
+  }
+
+
 
 
  
