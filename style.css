@@ -53,6 +53,24 @@
     height: 15px;
     background: rgb(255, 255, 255);
   }
+   main {
+    padding: 35px 15px;
+  }
+ 
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  .carta {
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
  
  
 
