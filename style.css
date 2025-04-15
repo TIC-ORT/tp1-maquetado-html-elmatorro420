@@ -97,6 +97,29 @@
 .carta.amarilla .inner {
   background: #f8b919;
 }
+footer {
+  background: #f7b8b8;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 15px;
+}
+
+.fondo {
+  width: 35%;
+  height: 85px;
+  background: #bdb2b2;
+  position: relative;
+}
+
+.fondo::before,
+.fondo::after {
+  content: "";
+  display: block;
+  height: 10px;
+  background: rgb(255, 255, 255);
+  margin: 4px 0;
+}
+
 
 
 
