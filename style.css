@@ -65,7 +65,7 @@
   }
   .carta {
     width: 100%;
-    aspect-ratio: 2 / 1;
+    aspect-ratio: 1 / 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,6 +78,26 @@
   .carta.azul {
     background: #1bbac5;
   }
+.carta.azul .inner {
+  background: #1bbac5;
+}
+
+.carta.roja {
+  background: #ff6431;
+}
+
+.carta.roja .inner {
+  background: #ff6431;
+}
+
+.carta.amarilla {
+  background: #f8b919;
+}
+
+.carta.amarilla .inner {
+  background: #f8b919;
+}
+
 
 
 
