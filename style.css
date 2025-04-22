@@ -1,83 +1,95 @@
 * {
-    margin: 1;
-    padding: 1;
-    box-sizing: border-box;
-  }
-  body 
-  { font-family: sans-serif;
-    background-color: chocolate ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.barra {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: antiquewhite;
-    padding: 15px 30px;
-  }
-  .logo,
-  .icono {
-    width: 20px;
-    height: 20px;
-    background: cadetblue;
-  }
-  .muesta {
-    background: darkkhaki;
-    display: flex;
-    padding: 30px 10px;
-    gap: 25px;
-  }
-  .imagenmuestra {
-    width: 145px;
-    height: 145px;
-    background: darkorange;
-  }
-  .textomuestra {
-    flex-grow: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
-  }
-  .titulo {
-    width: 70%;
-    height: 25px;
-    background: darkgoldenrod;
-  }
-  .linea {
-    width: 95%;
-    height: 15px;
-    background: rgb(255, 255, 255);
-  }
-  .lineacorta { 
-    width: 55%;
-    height: 15px;
-    background: rgb(255, 255, 255);
-    main {
-      padding: 35px 15px;
-    }
-   
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 15px;
-    }
-  
-  }
-  .carta {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-  }
-  .carta .inner {
-    width: 65%;
-    height: 65%;
-  }
-  .carta.azul {
-    background: #1bbac5;
-  }
+body {
+  font-family: sans-serif;
+  background-color: chocolate;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: antiquewhite;
+  padding: 15px 30px;
+}
+
+.logo,
+.icono {
+  width: 20px;
+  height: 20px;
+  background: cadetblue;
+}
+
+.muesta {
+  background: darkkhaki;
+  display: flex;
+  padding: 30px 10px;
+  gap: 25px;
+}
+
+.imagenmuestra {
+  width: 145px;
+  height: 145px;
+  background: darkorange;
+}
+
+.textomuestra {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.titulo {
+  width: 70%;
+  height: 25px;
+  background: darkgoldenrod;
+}
+
+.linea {
+  width: 95%;
+  height: 15px;
+  background: white;
+}
+
+.lineacorta {
+  width: 55%;
+  height: 15px;
+  background: white;
+}
+
+main {
+  padding: 35px 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.carta {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carta .inner {
+  width: 65%;
+  height: 65%;
+}
+
+.carta.azul {
+  background: #1bbac5;
+}
+
 .carta.azul .inner {
   background: #1bbac5;
 }
@@ -97,6 +109,7 @@
 .carta.amarilla .inner {
   background: #f8b919;
 }
+
 footer {
   background: #f7b8b8;
   display: flex;
@@ -116,23 +129,6 @@ footer {
   content: "";
   display: block;
   height: 10px;
-  background: rgb(255, 255, 255);
+  background: white;
   margin: 4px 0;
 }
-
-
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-  
-
